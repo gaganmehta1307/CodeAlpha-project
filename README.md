@@ -1,11 +1,10 @@
-# MehtaMart
+# CodeAlpha-project — MehtaMart
 
 Simple e-commerce demo site built with React and Vite.
 
 ## Run locally
 
 ```bash
-cd MehtaMart
 npm install
 npm run dev
 ```
