@@ -1,0 +1,167 @@
+export const CATEGORIES = [
+  'All',
+  'Electronics',
+  'Fashion',
+  'Grocery',
+  'Books',
+  'Home & Kitchen',
+];
+
+export const products = [
+  {
+    id: 1,
+    name: 'Wireless Earbuds Pro',
+    category: 'Electronics',
+    price: 2499,
+    image: 'https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=400&h=400&fit=crop',
+    description: 'Crystal-clear sound, 24-hour battery, and comfortable fit for all-day listening.',
+  },
+  {
+    id: 2,
+    name: 'Smart Watch Series 5',
+    category: 'Electronics',
+    price: 4999,
+    image: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=400&fit=crop',
+    description: 'Track fitness, notifications, and heart rate with a vibrant AMOLED display.',
+  },
+  {
+    id: 3,
+    name: 'Portable Bluetooth Speaker',
+    category: 'Electronics',
+    price: 1899,
+    image: 'https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=400&h=400&fit=crop',
+    description: 'Water-resistant speaker with deep bass—perfect for home or outdoors.',
+  },
+  {
+    id: 4,
+    name: 'USB-C Laptop Charger 65W',
+    category: 'Electronics',
+    price: 1299,
+    image: 'https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=400&h=400&fit=crop',
+    description: 'Fast charging for laptops, tablets, and phones with built-in safety protection.',
+  },
+  {
+    id: 5,
+    name: 'Classic Denim Jacket',
+    category: 'Fashion',
+    price: 2799,
+    image: 'https://images.unsplash.com/photo-1544022613-e87ca75a784a?w=400&h=400&fit=crop',
+    description: 'Timeless medium-wash denim with a relaxed fit for everyday style.',
+  },
+  {
+    id: 6,
+    name: 'Running Sneakers',
+    category: 'Fashion',
+    price: 3499,
+    image: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=400&fit=crop',
+    description: 'Lightweight cushioning and breathable mesh for your daily runs.',
+  },
+  {
+    id: 7,
+    name: 'Cotton Casual T-Shirt',
+    category: 'Fashion',
+    price: 699,
+    image: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&h=400&fit=crop',
+    description: 'Soft 100% cotton tee available in multiple colors.',
+  },
+  {
+    id: 8,
+    name: 'Leather Crossbody Bag',
+    category: 'Fashion',
+    price: 2199,
+    image: 'https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=400&h=400&fit=crop',
+    description: 'Compact genuine leather bag with adjustable strap.',
+  },
+  {
+    id: 9,
+    name: 'Organic Basmati Rice 5kg',
+    category: 'Grocery',
+    price: 649,
+    image: 'https://images.unsplash.com/photo-1586201375761-83865001e31c?w=400&h=400&fit=crop',
+    description: 'Premium long-grain basmati rice, aged for rich aroma.',
+  },
+  {
+    id: 10,
+    name: 'Extra Virgin Olive Oil 1L',
+    category: 'Grocery',
+    price: 899,
+    image: 'https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=400&h=400&fit=crop',
+    description: 'Cold-pressed olive oil ideal for cooking and salads.',
+  },
+  {
+    id: 11,
+    name: 'Mixed Dry Fruits 500g',
+    category: 'Grocery',
+    price: 549,
+    image: 'https://images.unsplash.com/photo-1599599810764-3c8a568958b5?w=400&h=400&fit=crop',
+    description: 'Almonds, cashews, raisins, and walnuts in one pack.',
+  },
+  {
+    id: 12,
+    name: 'Green Tea Assortment',
+    category: 'Grocery',
+    price: 399,
+    image: 'https://images.unsplash.com/photo-1556678150-b76073608f0a?w=400&h=400&fit=crop',
+    description: '20 tea bags with lemon, mint, and classic green blends.',
+  },
+  {
+    id: 13,
+    name: 'Atomic Habits',
+    category: 'Books',
+    price: 450,
+    image: 'https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=400&h=400&fit=crop',
+    description: 'Build good habits and break bad ones with practical strategies.',
+  },
+  {
+    id: 14,
+    name: 'The Psychology of Money',
+    category: 'Books',
+    price: 399,
+    image: 'https://images.unsplash.com/photo-1512820790801-4153ccae8f17?w=400&h=400&fit=crop',
+    description: 'Timeless lessons on wealth, greed, and happiness.',
+  },
+  {
+    id: 15,
+    name: 'Indian Cookbook Collection',
+    category: 'Books',
+    price: 799,
+    image: 'https://images.unsplash.com/photo-1495446815901-a7297e633e8d?w=400&h=400&fit=crop',
+    description: 'Regional recipes with step-by-step instructions and photos.',
+  },
+  {
+    id: 16,
+    name: 'Non-Stick Cookware Set',
+    category: 'Home & Kitchen',
+    price: 3299,
+    image: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=400&fit=crop',
+    description: '5-piece set with lids, suitable for induction and gas.',
+  },
+  {
+    id: 17,
+    name: 'Electric Kettle 1.7L',
+    category: 'Home & Kitchen',
+    price: 1499,
+    image: 'https://images.unsplash.com/photo-1564890369478-c89ca6d9cde9?w=400&h=400&fit=crop',
+    description: 'Boil water quickly with auto shut-off and dry-boil protection.',
+  },
+  {
+    id: 18,
+    name: 'Memory Foam Pillow Pair',
+    category: 'Home & Kitchen',
+    price: 1199,
+    image: 'https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=400&h=400&fit=crop',
+    description: 'Ergonomic support for neck and shoulders, washable cover.',
+  },
+];
+
+export function getProductById(id) {
+  return products.find((p) => p.id === Number(id));
+}
+
+export function formatPrice(amount) {
+  return new Intl.NumberFormat('en-IN', {
+    style: 'currency',
+    currency: 'INR',
+    maximumFractionDigits: 0,
+  }).format(amount);
+}
